@@ -1,0 +1,29 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# C/CUDA build artifacts
+*.o
+*.obj
+*.so
+*.a
+*.out
+
+# Project binaries produced by local builds
+billion-row-challenge/baseline
+billion-row-challenge/baseline_mt
+billion-row-challenge/solution
+
+# Very large generated/input text datasets
+billion-row-challenge/measurements.txt
+billion-row-challenge/measurements*.txt
+
+# Benchmark outputs and logs
+*.log
+benchmark-results/
